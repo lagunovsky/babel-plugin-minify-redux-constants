@@ -8,8 +8,8 @@ Works only with string variable declarations
 
 ```js
 const AUTH_CHECK_REQUEST = '@auth/CHECK_REQUEST';
-const AUTH_CHECK_FAILURE = '@auth/AUTH_CHECK_FAILURE';
-const AUTH_CHECK_SUCCESS = '@auth/AUTH_CHECK_SUCCESS';
+const AUTH_CHECK_FAILURE = '@auth/CHECK_FAILURE';
+const AUTH_CHECK_SUCCESS = '@auth/CHECK_SUCCESS';
 ```
 
 **Out**
@@ -24,8 +24,8 @@ const AUTH_CHECK_SUCCESS = '2';
 // Dictionary (optional)
 {
   "0": "@auth/CHECK_REQUEST",
-  "1": "@auth/AUTH_CHECK_FAILURE",
-  "2": "@auth/AUTH_CHECK_SUCCESS"
+  "1": "@auth/CHECK_FAILURE",
+  "2": "@auth/CHECK_SUCCESS"
 }
 ```
 
