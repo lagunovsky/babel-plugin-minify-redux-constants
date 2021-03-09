@@ -1,5 +1,4 @@
-# babel-plugin-decorate-constants
-
+Can be used to minify and obfuscate code. 
 Works only with string variable declarations
 
 ## Example
