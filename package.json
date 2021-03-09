@@ -1,0 +1,24 @@
+{
+  "version": "1.1.0",
+  "description": "",
+  "author": "Ivan Lagunovsky <ivan@lagunovsky.com>",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel src/index.ts --out-file lib/index.js",
+    "test": "jest",
+    "prepublish": "npm run build && npm run test"
+  },
+  "keywords": [
+    "babel-plugin"
+  ],
+  "dependencies": {
+    "@babel/types": "^7.13.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.13.10",
+    "@babel/preset-env": "^7.13.10",
+    "@babel/preset-typescript": "^7.13.0",
+    "@types/jest": "^26.0.20",
+    "jest": "^26.6.3"
+  }
+}
