@@ -17,7 +17,7 @@ module.exports = function (): PluginObj<PluginOptions> {
   let iterator = 0
   const getUniqueId = () => (iterator++).toString()
 
-  const defaultFilter: Filter = ({ filename }) => filename.indexOf('constants.') !== -1
+  const defaultFilter: Filter = ({ filename }) => filename.indexOf('constants') !== -1
 
   const dictionary: { [id: string]: string } = {}
 
