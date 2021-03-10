@@ -31,11 +31,11 @@ const AUTH_CHECK_SUCCESS = '2';
 ## Installation
 
 ```sh
-$ npm install babel-plugin-minify-redux-constants
+$ npm install @lagunovsky/babel-plugin-minify-redux-constants
 ```
 
 ```sh
-$ yarn add babel-plugin-minify-redux-constants
+$ yarn add @lagunovsky/babel-plugin-minify-redux-constants
 ```
 
 ## Usage

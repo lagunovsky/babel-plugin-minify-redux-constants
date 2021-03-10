@@ -1,5 +1,5 @@
 {
-  "name": "babel-plugin-minify-redux-constants",
+  "name": "@lagunovsky/babel-plugin-minify-redux-constants",
   "version": "1.1.0",
   "description": "",
   "author": "Ivan Lagunovsky <ivan@lagunovsky.com>",
@@ -10,7 +10,8 @@
     "prepublish": "npm run build && npm run test"
   },
   "keywords": [
-    "babel-plugin"
+    "babel-plugin",
+    "redux"
   ],
   "dependencies": {
     "@babel/types": "^7.13.0"
